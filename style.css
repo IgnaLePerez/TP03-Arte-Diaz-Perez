@@ -165,6 +165,7 @@
     background-image: url(img/fondooo.jpg);
     background-repeat:no-repeat;
     background-size: cover;
+    background-position: bottom;
     color: white;
 }
 
@@ -324,3 +325,52 @@ footer li{
     }
 }
 
+.seccionPunteo{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+@media (max-width: 400px) {
+    .hero {
+        height: 30vh;
+        padding: 1rem;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .padding {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .seccionSubtitulo h2 {
+        font-size: 2rem;
+        height: auto;
+        padding: 1rem 0.5rem;
+    }
+
+    .seccionImagenTexto h3 {
+        font-size: 2.5rem;
+    }
+
+    .row {
+        gap: 20px !important;
+        flex-direction: column !important;
+    }
+
+    .card {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .modal-body {
+        flex-wrap: wrap !important;
+    }
+
+    .ticket-option {
+        width: 100% !important;
+        min-height: auto;
+    }
+}
