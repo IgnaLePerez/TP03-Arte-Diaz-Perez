@@ -162,10 +162,15 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-image: url(img/fondooo.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
 }
 
 .hero h1{
     font-size: 100px;
+    
 }
 
 .row{
@@ -290,6 +295,17 @@ footer li{
     transition: transform 0.3s ease-in-out;
 }
 
+.punteo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #252c3a;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: white;
+    height: 18vh;
+    border-radius: 12px;
+}
+
 @keyframes imagen{
     from{
         background-color: #1d222d;
@@ -307,3 +323,4 @@ footer li{
         background-color: #1d222d;
     }
 }
+
