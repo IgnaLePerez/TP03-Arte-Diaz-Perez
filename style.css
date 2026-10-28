@@ -204,12 +204,13 @@
 
 .fondoCard:hover
 {
-    animation: imagen 0.5s;
+    animation: imagen 0.5s !important;
+    background-color: #3b455a !important;
 }
 
 .fondoCard:not(:hover)
 {
-    animation: imagen2 0.5s;
+    animation: imagen2 0.5s !important;
 }
 
 .fondoCard div{
